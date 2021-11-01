@@ -1,0 +1,600 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: neovim
+Source: https://github.com/neovim/neovim
+
+Files: *
+Copyright: Neovim contributors
+License: Apache
+
+Files: debian/*
+Copyright: 2021 Craig Wilson <craigjwilson93@gmail.com>
+License: Apache
+
+Files: runtime/*
+       scripts/check_urls.vim
+       src/nvim/*
+       test/functional/legacy/*
+Copyright: 2001-2015 Bram Moolenaar <Bram@vim.org>
+           2006 Benji Fisher <benji@member.ams.org>
+           1999-2017 Charles E. Campbell, Jr.
+           2003 Fred Barnes
+           2003 Mario Schweigler
+           2004-2008 Michael Geddes
+           2006 Martin Krischik
+           2015 Christian Brabandt
+           2014 David Necas (Yeti)
+           2009-2013 Steven Oliver
+           2012 Hong Xu
+           2017 Eugene Ciurana
+License: Vim
+Files: src/nvim/api/*
+       src/nvim/aucmd.*
+       src/nvim/buffer_updates.*
+       src/nvim/channel.*
+       src/nvim/decoration.*
+       src/nvim/CMakeLists.txt
+       src/nvim/context.*
+       src/nvim/cursor_shape.*
+       src/nvim/eval/*
+       src/nvim/event/*
+       src/nvim/extmark*
+       src/nvim/func_attr.h
+       src/nvim/grid_defs.h
+       src/nvim/highlight.*
+       src/nvim/highlight_defs.h
+       src/nvim/lib/ringbuf.h
+       src/nvim/log.*
+       src/nvim/map.*
+       src/nvim/marktree.*
+       src/nvim/math.*
+       src/nvim/memory.*
+       src/nvim/msgpack_rpc/*
+       src/nvim/os/fileio.*
+       src/nvim/os/lang.*
+       src/nvim/os/os_win_console.*
+       src/nvim/os/process.*
+       src/nvim/os/pty_*
+       src/nvim/os/stdpaths.*
+       src/nvim/README.md
+       src/nvim/rbuffer.*
+       src/nvim/shada.*
+       src/nvim/state.*
+       src/nvim/terminal.*
+       src/nvim/testdir/runnvim.*
+       src/nvim/tui*
+       src/nvim/ui*
+       src/nvim/ugrid.*
+       src/nvim/viml/*
+       src/nvim/*.lua
+       runtime/autoload/health.vim
+       runtime/autoload/health/*
+       runtime/autoload/man.vim
+       runtime/autoload/msgpack.vim
+       runtime/autoload/provider.vim
+       runtime/autoload/provider/*
+       runtime/autoload/remote/*
+       runtime/autoload/shada.vim
+       runtime/autoload/tutor.vim
+       runtime/autoload/vimexpect.vim
+       runtime/compiler/powershell.vim
+       runtime/doc/api.txt
+       runtime/doc/channel.txt
+       runtime/doc/deprecated.txt
+       runtime/doc/if_lua.txt
+       runtime/doc/if_ruby.txt
+       runtime/doc/job_control.txt
+       runtime/doc/lsp-extension.txt
+       runtime/doc/lsp.txt
+       runtime/doc/lua.txt
+       runtime/doc/msgpack_rpc.txt
+       runtime/doc/nvim*
+       runtime/doc/pi_health.txt
+       runtime/doc/provider.txt
+       runtime/doc/remote_plugin.txt
+       runtime/doc/term.txt
+       runtime/doc/treesitter.txt
+       runtime/doc/ui.txt
+       runtime/doc/vim_diff.txt
+       runtime/ftplugin/ps1.vim
+       runtime/ftplugin/ps1xml.vim
+       runtime/ftplugin/tutor.vim
+       runtime/indent/ps1.vim
+       runtime/lua/*
+       runtime/nvim.desktop
+       runtime/nvim.png
+       runtime/plugin/health.vim
+       runtime/plugin/man.vim
+       runtime/plugin/rplugin.vim
+       runtime/queries/*
+       runtime/syntax/lsp_markdown.vim
+       runtime/syntax/man.vim
+       runtime/syntax/ps1.vim
+       runtime/syntax/ps1xml.vim
+       runtime/syntax/tutor.vim
+       runtime/tutor/*
+Copyright: Neovim contributors
+           Peter Provost
+License: Apache
+
+Files: runtime/ftplugin/swift.vim
+       runtime/ftplugin/swiftgyb.vim
+       runtime/syntax/sil.vim
+       runtime/syntax/swift.vim
+       runtime/syntax/swiftgyb.vim
+Copyright: 2014-2020 Apple Inc and the Swift project Authors
+License: Apache-with-Exception
+
+Files: src/clint.py
+Copyright: 2009 Google Inc.
+License: clint
+
+Files: cmake/FindLua.cmake
+       runtime/indent/cmake.vim
+       runtime/syntax/cmake.vim
+Copyright: 2000-2017 Kitware, Inc. and Contributors
+License: Kitware
+
+Files: runtime/plugin/tarPlugin.vim
+       runtime/syntax/initng.vim
+       runtime/syntax/asciidoc.vim
+Copyright: 2002 Michael C. Toren <mct@toren.net>
+           2007 Elan Ruusamäe <glen@pld-linux.org>
+           2014 Stuart Rackham <srackham@gmail.com>
+License: GPL-2
+
+Files: unicode/*
+Copyright: 2016 Unicode®, Inc.
+License: Unicode
+
+Files: contrib/doxygen/extra.css
+       runtime/ftplugin/wast.vim
+       runtime/indent/wast.vim
+       runtime/syntax/cf.vim
+       runtime/syntax/wast.vim
+       scripts/gen_help_html.py
+       src/nvim/lib/khash.h
+       src/nvim/lib/klist.h
+       src/nvim/lib/kvec.h
+Copyright: 2008-2009, 2011 Attractive Chaos <attractor@live.co.uk>
+           2008 Google Inc.
+           2014 Nicolas Gallagher
+           2016 rhysd
+           2017 Ernst M. van der Linden <ernst.vanderlinden@ernestoz.com>
+           2016 Carlo Teubner
+License: Expat
+
+Files: src/nvim/lib/queue.h
+Copyright: 2013 Ben Noordhuis <info@bnoordhuis.nl>
+License: ISC
+
+Files: src/nvim/regexp.c
+Copyright: 1986 University of Toronto
+License: Vim-Regexp
+
+Files: runtime/syntax/tmux.vim
+       src/nvim/lib/kbtree.h
+Copyright: Eric Pruitt <eric.pruitt@gmail.com>
+           1997-1999, 2001 John-Mark Gurney
+           2008-2009 Attractive Chaos <attractor@live.co.uk>
+License: BSD-2-clause
+
+Files: src/nvim/xdiff/*
+Copyright: 2003-2016 Davide Libenzi, Johannes E. Schindelin
+License: LGPL-2.1+
+
+Files: src/nvim/xdiff/xhistogram.c
+Copyright: 2010 Google Inc. and other copyright owners as documented in JGit's IP log
+License: EDL-1
+
+Files: runtime/lua/vim/inspect.lua
+Copyright: (c) 2013 Enrique García Cota
+License: Expat
+
+Files: scripts/lua2dox*
+Copyright: (C) 2012 by Simon Dales
+License: GPL-2+
+
+Files: runtime/syntax/elm.vim
+Copyright: Joseph Hager <ajhager@gmail.com>
+License: BSD-3-clause
+
+Files: runtime/syntax/poke.vim
+Copyright: 2021 Matthew T. Ihlenfield
+License: GPL-3+
+
+License: Apache
+ Copyright Neovim contributors. All rights reserved.
+ .
+ Neovim is licensed under the terms of the Apache 2.0 license, except for
+ parts of Neovim that were contributed under the Vim license (see below).
+ .
+ On Debian systems, the complete text of the Apache version 2.0 license can be
+ found in `/usr/share/common-licenses/Apache-2.0'.
+
+License: Apache-with-Exception
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+    http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ As an exception, if you use this Software to compile your source code and
+ portions of this Software are embedded into the binary product as a result,
+ you may redistribute such product without providing attribution as would
+ otherwise be required by Sections 4(a), 4(b) and 4(d) of the License.
+ .
+ On Debian systems, the complete text of the Apache version 2.0 license can be
+ found in `/usr/share/common-licenses/Apache-2.0'.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to
+ deal in the Software without restriction, including without limitation the
+ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+License: ISC
+ Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+License: Vim
+ I)  There are no restrictions on distributing unmodified copies of Vim except
+     that they must include this license text.  You can also distribute
+     unmodified parts of Vim, likewise unrestricted except that they must
+     include this license text.  You are also allowed to include executables
+     that you made from the unmodified Vim sources, plus your own usage
+     examples and Vim scripts.
+ .
+ II) It is allowed to distribute a modified (or extended) version of Vim,
+     including executables and/or source code, when the following four
+     conditions are met:
+     1) This license text must be included unmodified.
+     2) The modified Vim must be distributed in one of the following five ways:
+        a) If you make changes to Vim yourself, you must clearly describe in
+           the distribution how to contact you.  When the maintainer asks you
+           (in any way) for a copy of the modified Vim you distributed, you
+           must make your changes, including source code, available to the
+           maintainer without fee.  The maintainer reserves the right to
+           include your changes in the official version of Vim.  What the
+           maintainer will do with your changes and under what license they
+           will be distributed is negotiable.  If there has been no negotiation
+           then this license, or a later version, also applies to your changes.
+           The current maintainer is Bram Moolenaar <Bram@vim.org>.  If this
+           changes it will be announced in appropriate places (most likely
+           vim.sf.net, www.vim.org and/or comp.editors).  When it is completely
+           impossible to contact the maintainer, the obligation to send him
+           your changes ceases.  Once the maintainer has confirmed that he has
+           received your changes they will not have to be sent again.
+        b) If you have received a modified Vim that was distributed as
+           mentioned under a) you are allowed to further distribute it
+           unmodified, as mentioned at I).  If you make additional changes the
+           text under a) applies to those changes.
+        c) Provide all the changes, including source code, with every copy of
+           the modified Vim you distribute.  This may be done in the form of a
+           context diff.  You can choose what license to use for new code you
+           add.  The changes and their license must not restrict others from
+           making their own changes to the official version of Vim.
+        d) When you have a modified Vim which includes changes as mentioned
+           under c), you can distribute it without the source code for the
+           changes if the following three conditions are met:
+           - The license that applies to the changes permits you to distribute
+             the changes to the Vim maintainer without fee or restriction, and
+             permits the Vim maintainer to include the changes in the official
+             version of Vim without fee or restriction.
+           - You keep the changes for at least three years after last
+             distributing the corresponding modified Vim.  When the maintainer
+             or someone who you distributed the modified Vim to asks you (in
+             any way) for the changes within this period, you must make them
+             available to him.
+           - You clearly describe in the distribution how to contact you.  This
+             contact information must remain valid for at least three years
+             after last distributing the corresponding modified Vim, or as long
+             as possible.
+        e) When the GNU General Public License (GPL) applies to the changes,
+           you can distribute the modified Vim under the GNU GPL version 2 or
+           any later version.
+     3) A message must be added, at least in the output of the ":version"
+        command and in the intro screen, such that the user of the modified Vim
+        is able to see that it was modified.  When distributing as mentioned
+        under 2)e) adding the message is only required for as far as this does
+        not conflict with the license used for the changes.
+     4) The contact information as required under 2)a) and 2)d) must not be
+        removed or changed, except that the person himself can make
+        corrections.
+ .
+ III) If you distribute a modified version of Vim, you are encouraged to use
+      the Vim license for your changes and make them available to the
+      maintainer, including the source code.  The preferred way to do this is
+      by e-mail or by uploading the files to a server and e-mailing the URL.
+      If the number of changes is small (e.g., a modified Makefile) e-mailing a
+      context diff will do.  The e-mail address to be used is
+      <maintainer@vim.org>
+ .
+ IV)  It is not allowed to remove this license from the distribution of the Vim
+      sources, parts of it or from a modified version.  You may use this
+      license for previous Vim releases instead of the license that they came
+      with, at your option.
+
+License: clint
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ .
+    * Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+ copyright notice, this list of conditions and the following disclaimer
+ in the documentation and/or other materials provided with the
+ distribution.
+    * Neither the name of Google Inc. nor the names of its
+ contributors may be used to endorse or promote products derived from
+ this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: Kitware
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ * Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+ .
+ * Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+ .
+ * Neither the name of Kitware, Inc. nor the names of Contributors
+   may be used to endorse or promote products derived from this
+   software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License, version 2, as published
+ by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ On Debian systems, the complete text of the GPL version 2 license can be
+ found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+ .
+ On Debian systems, the complete text of the GPL version 2 license can be
+ found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GPL version 3 license can be
+ found in `/usr/share/common-licenses/GPL-3'.
+
+License: Unicode
+ COPYRIGHT AND PERMISSION NOTICE
+ .
+ Copyright © 1991-2015 Unicode, Inc. All rights reserved.
+ Distributed under the Terms of Use in
+ http://www.unicode.org/copyright.html.
+ .
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of the Unicode data files and any associated documentation
+ (the "Data Files") or Unicode software and any associated documentation
+ (the "Software") to deal in the Data Files or Software
+ without restriction, including without limitation the rights to use,
+ copy, modify, merge, publish, distribute, and/or sell copies of
+ the Data Files or Software, and to permit persons to whom the Data Files
+ or Software are furnished to do so, provided that
+ (a) this copyright and permission notice appear with all copies
+ of the Data Files or Software,
+ (b) this copyright and permission notice appear in associated
+ documentation, and
+ (c) there is clear notice in each modified Data File or in the Software
+ as well as in the documentation associated with the Data File(s) or
+ Software that the data or software has been modified.
+ .
+ THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF
+ ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+ IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS
+ NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL
+ DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+ DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+ PERFORMANCE OF THE DATA FILES OR SOFTWARE.
+ .
+ Except as contained in this notice, the name of a copyright holder
+ shall not be used in advertising or otherwise to promote the sale,
+ use or other dealings in these Data Files or Software without prior
+ written authorization of the copyright holder.
+
+License: Vim-Regexp
+ Permission is granted to anyone to use this software for any
+ purpose on any computer system, and to redistribute it freely,
+ subject to the following restrictions:
+ .
+ 1. The author is not responsible for the consequences of use of
+        this software, no matter how awful, even if they arise
+        from defects in it.
+ .
+ 2. The origin of this software must not be misrepresented, either
+        by explicit claim or by omission.
+ .
+ 3. Altered versions must be plainly marked as such, and must not
+        be misrepresented as being the original software.
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice, this
+    list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause
+ Copyright (c) 2015, Joseph Hager
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ .
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ .
+ * Neither the name of elm-vim nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: LGPL-2.1+
+ On Debian systems, the complete text of the LGPL version 2 license can be
+ found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: EDL-1
+ This program and the accompanying materials are made available
+ under the terms of the Eclipse Distribution License v1.0 which
+ accompanies this distribution, is reproduced below, and is
+ available at http://www.eclipse.org/org/documents/edl-v10.php
+ .
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or
+ without modification, are permitted provided that the following
+ conditions are met:
+ .
+ - Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+ .
+ - Redistributions in binary form must reproduce the above
+   copyright notice, this list of conditions and the following
+   disclaimer in the documentation and/or other materials provided
+   with the distribution.
+ .
+ - Neither the name of the Eclipse Foundation, Inc. nor the
+   names of its contributors may be used to endorse or promote
+   products derived from this software without specific prior
+   written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+ CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

@@ -1,0 +1,3 @@
+debian/build/usr/bin/nvim
+debian/build/usr/lib/nvim
+debian/build/usr/share/nvim

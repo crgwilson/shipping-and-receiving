@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+
+DESTDIR = $(CURDIR)/debian/build
+INSTALL_PREFIX = $(DESTDIR)/usr
+PREFER_LUA = ON
+
+BUILD_TYPE=Release
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	mkdir -p $(INSTALL_PREFIX)
+	$(MAKE) CMAKE_BUILD_TYPE=Release CMAKE_INSTALL_PREFIX=$(INSTALL_PREFIX)
+
+override_dh_auto_install:
+	$(MAKE) install
+
+override_dh_auto_test:
+
+
+override_dh_auto_clean:
+	$(MAKE) clean
+	dh_auto_clean

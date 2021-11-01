@@ -1,0 +1,5 @@
+neovim (0.6.0-dev-525-ge921e98ce) experimental; urgency=medium
+
+  * Packaging neovim nightly v0.6.0 revision 525-ge921e98ce
+
+ -- Craig Wilson <craigjwilson93@gmail.com>  Sun, 31 Oct 2021 21:23:40 -0400

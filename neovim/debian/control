@@ -1,0 +1,49 @@
+Source: neovim
+Section: editors
+Priority: optional
+Maintainer: Craig Wilson <craigjwilson93@gmail.com>
+Uploaders: Craig Wilson <craigjwilson93@gmail.com>
+Build-Depends:
+ cmake (>= 2.8.12),
+ debhelper (>= 11),
+ gettext,
+ gperf,
+ libacl1-dev,
+ libkvm-dev [kfreebsd-any],
+ libluajit-5.1-dev [amd64 armel armhf hurd-i386 i386] | liblua5.1-dev,
+ libluajit-5.1-dev (>= 2.1.0~beta3) [mips mipsel] | liblua5.1-dev,
+ libmsgpack-dev (>= 1.0.0),
+ libnss-wrapper <!nocheck>,
+ libtermkey-dev,
+ libunibilium-dev,
+ libuv1-dev,
+ libvterm-dev,
+ locales,
+ lua-bitop,
+ lua-busted <!nocheck>,
+ lua-filesystem <!nocheck>,
+ lua-inspect <!nocheck>,
+ lua-lpeg,
+ lua-luv-dev,
+ lua-mpack,
+ lua-nvim (>= 0.0.1-26-1~) [!hurd-i386] <!nocheck>,
+ luajit [amd64 armel armhf hurd-i386 i386] | lua5.1,
+ luajit (>= 2.1.0~beta3) [mips mipsel] | lua5.1,
+ ninja-build,
+ pkg-config,
+Standards-Version: 4.5.0
+Homepage: https://neovim.io/
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/crgwilson/shipping-and-receiving.git
+Vcs-Browser: https://github.com/crgwilson/shipping-and-receiving/neovim
+
+Package: neovim
+Architecture: any
+Depends:
+ ${neovim:Depends},
+ ${misc:Depends},
+ ${shlibs:Depends}
+Recommends: python3-neovim, xclip | xsel, xxd
+Suggests: ctags, vim-scripts
+Provides: editor
+Description: Newer versions of Neovim (nightly builds, etc) built and maintained for personal use.
